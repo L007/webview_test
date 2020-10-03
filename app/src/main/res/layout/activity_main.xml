@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
+        android:id="@+id/toolbarNew"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary"
@@ -17,14 +17,14 @@
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
     <ProgressBar
-        android:id="@+id/progressBar"
+        android:id="@+id/progressBarNew"
         style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
         android:layout_width="match_parent"
         android:layout_height="4dp"
         android:layout_below="@id/toolbar" />
 
     <WebView
-        android:id="@+id/webView"
+        android:id="@+id/webViewNew"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/progressBar">
