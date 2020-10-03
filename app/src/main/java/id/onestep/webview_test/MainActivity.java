@@ -18,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
-        webView = (WebView) findViewById(R.id.webView);
-        progressBar = (ProgressBar) findViewById(R.id.progressBar);
+        toolbar = (Toolbar) findViewById(R.id.toolbarNew);
+        webView = (WebView) findViewById(R.id.webViewNew);
+        progressBar = (ProgressBar) findViewById(R.id.progressBarNew);
 
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("web view");
